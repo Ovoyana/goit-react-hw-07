@@ -1,7 +1,7 @@
 import css from './App.module.css';
-import ContactForm from '../ContactForm/ContactForm';
-import SearchBox from '../SearchBox/SearchBox';
-import ContactList from '../ContactList/ContactList';
+import ContactForm from '/Users/Asus/Documents/GitHub/goit-react-hw-07/src/components/ContactForm/ContactForm';
+import SearchBox from '/Users/Asus/Documents/GitHub/goit-react-hw-07/src/components/SearchBox/SearchBox';
+import ContactList from '/Users/Asus/Documents/GitHub/goit-react-hw-07/src/components/ContactList/ContactList';
 import { useDispatch, useSelector } from "react-redux";
 import { selectContacts } from '../../redux/ContactsSlice';
 import { useEffect } from "react";
