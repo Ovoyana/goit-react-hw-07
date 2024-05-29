@@ -3,9 +3,9 @@ import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
 import ContactList from "../ContactList/ContactList";
 import { useDispatch, useSelector } from "react-redux";
-import { selectContacts } from '../../redux/ContactsSlice';
+import { selectContacts } from '../../redux/contactsSlice';
 import { useEffect } from "react";
-import { fetchContacts } from '../../redux/ContactsOps';
+import { fetchContacts } from '../../redux/contactsOps';
 import { PiBookOpenTextLight } from "react-icons/pi";
 
 
@@ -27,7 +27,7 @@ export default function App() {
       ) : (
         <p className="text">No contacts!!!</p>
       )}
-      <ContactList/>
+    
     </div>
   );
 }
